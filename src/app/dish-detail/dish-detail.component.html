@@ -27,7 +27,7 @@
   <div fxFlex="40">
     <mat-card-header>
       <h1 mat-line> Comments </h1></mat-card-header>
-    <mat-list *ngFor="let dishh of dish.comments">
+    <mat-list *ngFor="let dishh of dish.comments" >
       <mat-card-content *ngIf="dishh">
         <p mat-line>{{dishh.comment}}</p>
         <p mat-line>{{dishh.rating}} stars </p>
